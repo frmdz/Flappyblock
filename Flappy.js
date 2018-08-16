@@ -60,8 +60,8 @@ class Pajaro {
     this.velocidad = -4.5  ;
   }
   aletear() {
-      pajaro_1.velocidad = -4.5;
-      pajaro_1.y -= 35;
+    pajaro_1.velocidad = -4.5;
+    pajaro_1.y -= 35;
   }
   dibujar() {
     context.fillStyle = "#ffea00";
@@ -111,9 +111,9 @@ function Principal() {
   else if (START && !GAMEOVER) {
     //game
     colision();
-	pajaro_1.dibujar();
+    pajaro_1.dibujar();
     tubos_1.dibujar();
-	pajaro_1.mover();
+    pajaro_1.mover();
     tubos_1.mover();
   }
   else if (GAMEOVER) {
