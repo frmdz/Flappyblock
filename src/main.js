@@ -82,10 +82,8 @@ let pajaro_1 = new Pajaro();
 let tubos_1 = new Tubos();
 
 //Main loop
-function Principal() {
-  //Clear the screen.
-  context.clearRect(0,0,canvas.width,canvas.height);
-
+function Principal() {  
+  context.clearRect(0,0,canvas.width,canvas.height);//Clear the screen.
   if (!GAMEOVER && START) {
     colision();
     pajaro_1.mover();
@@ -94,6 +92,5 @@ function Principal() {
   tubos_1.dibujar();
   pajaro_1.dibujar();
   pantallas();
-  //Loop.
-  requestAnimationFrame(Principal);
+  requestAnimationFrame(Principal);//Loop.
 } Principal();
