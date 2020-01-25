@@ -42,7 +42,7 @@ function colision() {
             || helper(pajaro_1.x, pajaro_1.y, pajaro_1.radio, tubos_1.posx_2, tubos_1.ancho, tubos_1.altura_2, tubos_1.espacio_2)
 }
 
-//Restart game.
+//Restart game
 function restart() {
   tubos_1.restart();
   pajaro_1.restart();
